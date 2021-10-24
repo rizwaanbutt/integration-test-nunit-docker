@@ -1,5 +1,5 @@
 ﻿
-namespace Globit.OrderApi.UnitTests.Utilities
+namespace Globit.OrderApi.Tests.Utilities
 {
     using Docker.DotNet;
     using Docker.DotNet.Models;
@@ -14,8 +14,8 @@ namespace Globit.OrderApi.UnitTests.Utilities
 
     public static class DockerSqlDatabaseUtilities
     {
-        public const string DB_PASSWORD = "#testingDockerPassword#";
-        public const string DB_USER = "SA";
+        public const string DB_PASSWORD = "Tr@vel2015";
+        public const string DB_USER = @"KALROM\RBUTT";
         public const string DB_IMAGE = "mcr.microsoft.com/mssql/server";
         public const string DB_IMAGE_TAG = "2019-latest";
         public const string DB_CONTAINER_NAME = "IntegrationTestingContainer_Accessioning";

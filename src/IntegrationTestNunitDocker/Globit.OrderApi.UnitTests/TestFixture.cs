@@ -1,8 +1,8 @@
-﻿namespace Globit.OrderApi.UnitTests
+﻿namespace Globit.OrderApi.Tests
 {
     using Globit.OrderApi.Infrastructure.Contexts;
-    using Globit.OrderApi.UnitTests.Utilities;
-    using Globit.WebApi;
+    using Globit.OrderApi.Tests.Utilities;
+    using Globit.OrderApi;
     using MediatR;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Identity;
