@@ -25,8 +25,4 @@
     <ProjectReference Include="..\Globit.OrderApi\Globit.OrderApi.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="IntegrationTests\" />
-  </ItemGroup>
-
 </Project>
